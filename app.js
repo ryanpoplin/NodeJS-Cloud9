@@ -1,5 +1,8 @@
 "use strict"
 
+const port = process.env.PORT = 8080
+const ip = process.env.IP = "localhost"
+
 const http = require("http")
 http.createServer(function (req, res) {
     res.writeHead(200, {
@@ -8,4 +11,4 @@ http.createServer(function (req, res) {
     res.end({
         "message": "What's up? Node.js 4.3.1 LTS here!"
     })
-}).listen(8080, "127.0.0.1")
+}).listen(port, ip)
