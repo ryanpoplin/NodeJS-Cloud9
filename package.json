@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-cloud9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanpoplin/NodeJS-Cloud9.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanpoplin/NodeJS-Cloud9/issues"
+  },
+  "homepage": "https://github.com/ryanpoplin/NodeJS-Cloud9#readme",
+  "dependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.4.5",
+    "superagent": "^1.7.2",
+    "tape": "^4.4.0"
+  }
+}
